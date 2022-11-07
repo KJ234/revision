@@ -1,36 +1,35 @@
-
 function Contact() {
   return (
-    <section class="contact" id="contact">
-      <h1 class="heading">contact me</h1>
+    <section className="contact" id="contact">
+      <h1 className="heading">contact me</h1>
 
-      <div class="row">
+      <div className="row">
         <form action="">
-          <input type="text" class="box" placeholder="first name" />
-          <input type="text" class="box" placeholder="last name" />
-          <input type="email" class="box" placeholder="your email" />
-          <input type="text" class="box" placeholder="your project" />
+          <input type="text" className="box" placeholder="first name" />
+          <input type="text" className="box" placeholder="last name" />
+          <input type="email" className="box" placeholder="your email" />
+          <input type="text" className="box" placeholder="your project" />
           <textarea
             name=""
             id=""
             cols="30"
             rows="10"
-            class="box message"
+            className="box message"
             placeholder="message"
           ></textarea>
-          <input type="submit" value="message" class="btn" />
+          <input type="submit" value="message" className="btn" />
         </form>
 
-        <div class="content">
-          <div class="icons">
+        <div className="column">
+          <div className="icons">
             <h3>
-              <i class="fas fa-map-marker-alt"></i> address
+              <i className="fas fa-map-marker-alt"></i> address
             </h3>
             <p>Birmingham, UK</p>
           </div>
-          <div class="icons">
+          <div className="icons">
             <h3>
-              <i class="fas fa-envelope"></i> email
+              <i className="fas fa-envelope"></i> email
             </h3>
             <p>komaljaved308@gmail.com</p>
           </div>
