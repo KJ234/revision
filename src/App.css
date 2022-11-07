@@ -13,6 +13,14 @@
   }
 }
 
+
+
+.homepgpic {
+
+  margin-top: 100px;
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +43,118 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.contact .row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7rem;
+  align-items: center;
+}
+
+.contact .row form {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.contact .row form .box {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  height: 4rem;
+  width: 49%;
+  font-size: 1.7rem;
+  color: rgb(226, 7, 7);
+  text-transform: none;
+}
+
+.contact .row form .box::placeholder {
+  color: rgb(187, 8, 8);
+}
+
+.contact .row form .message {
+  padding: 1rem;
+  height: 15rem;
+  resize: none;
+  width: 100%;
+}
+
+.contact .row form .btn {
+  margin-bottom: 1rem;
+}
+
+.contact .row .content {
+  padding: 0 5rem;
+}
+
+.contact .row .content .icons {
+  padding: 1rem 0;
+}
+
+.contact .row .content .icons h3 {
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: rgb(223, 5, 5);
+  display: flex;
+}
+
+.contact .row .content .icons h3 i {
+  padding-right: 0.5rem;
+}
+
+.contact .row .content .icons p {
+  font-size: 1.5rem;
+  color: rgb(182, 17, 17);
+}
+
+
+
+
+.header {
+  color: black;
+  font-size: 3.5em;
+  float: left;
+  padding: 40px;
+  margin: 30px;
+  margin-top: 170px;
+  
+
+}
+
+.extra-text {
+  color: rgb(76, 25, 108);
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  max-width: 200x;
+  justify-content: space-evenly;
+  border: 40px solid white;
+  box-shadow: 10px 10px 10px rgb(223, 216, 216);
+  margin: 15px;
+  
+}
+
+.footer{
+  margin-top: 150px;
+  background-color: rgb(45, 13, 103);
+  color: white;
+  border: 40px solid white;
+      padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+  
+}
+
+.footer a {
+  color: white
+ 
 }
